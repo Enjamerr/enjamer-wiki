@@ -7,6 +7,11 @@ types:
 
 scopes:
   - docs
+  - pages
+  - component
+  - api
+  - mocks
+  - styles
   - ci/cd
   - cli
   - config
