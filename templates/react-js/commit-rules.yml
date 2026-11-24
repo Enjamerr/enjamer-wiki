@@ -1,0 +1,13 @@
+types:
+  - feat
+  - fix
+  - refactor
+  - docs
+  - chore
+
+scopes:
+  - docs
+  - ci/cd
+  - cli
+  - config
+  - identity
