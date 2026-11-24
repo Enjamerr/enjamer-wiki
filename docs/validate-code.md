@@ -9,16 +9,17 @@ Before pushing changes to the repository or creating a Pull Request, each develo
 ```
 
 > **Warning:** The validation commands below only work after you initialize the Enjamer CLI with `npm run enjamer-cli`, as described in the project setup documentation.
+
 ## Mandatory validations
 
-| Command | Function |
-| --- | --- |
-| `enjamer-detectsLintErrors-code` | Detects ESLint errors and warnings. |
-| `enjamer-checkFormat-code` | Checks that the code complies with Prettier rules. |
-| `enjamer-checkBuild-code` | Checks that the project compiles correctly. |
+| Command                           | Function                                                        |
+| --------------------------------- | --------------------------------------------------------------- |
+| `enjamer-detectsLintErrors-code`  | Detects ESLint errors and warnings.                             |
+| `enjamer-checkFormat-code`        | Checks that the code complies with Prettier rules.              |
+| `enjamer-checkBuild-code`         | Checks that the project compiles correctly.                     |
 | `enjamer-validate-commitMessages` | Validates the commit messages introduced by the current branch. |
-| `enjamer-validate-branchName` | Validates the branch name and registered username. |
-| `enjamer-validate-commitAuthors` | Validates commit authors against registered identities. |
+| `enjamer-validate-branchName`     | Validates the branch name and registered username.              |
+| `enjamer-validate-commitAuthors`  | Validates commit authors against registered identities.         |
 
 All validations must complete successfully before requesting integration.
 
@@ -68,9 +69,9 @@ Example:
 
 ```yaml
 authors:
-  - name: "John Doe Pérez Martínez"
-    username: "jperezatenjamer"
-    email: "jdperezm@enjamer.com"
+  - name: 'John Doe Pérez Martínez'
+    username: 'jperezatenjamer'
+    email: 'jdperezm@enjamer.com'
 ```
 
 To configure the mentioned credentials, visit `https://wiki.enjamer.com`
